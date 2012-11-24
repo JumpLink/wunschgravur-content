@@ -1,37 +1,52 @@
+<style type="text/css">
+
+	.unterkat_button_img {
+		background-image: url("/WebRoot/Store21/Shops/62874629/MediaGallery/metis/kategorien/taschenlampen/buttons/buttons-taschenlampen.png") !important;
+		background-repeat:no-repeat;
+	}
+
+	a#normal {
+		background-position: 0px 0px;
+	}
+	a:hover#normal {
+		background-position: -275px 0px;
+	}
+
+	/* 1 * 47 */
+	a#zubehoer {
+		background-position: 0px -47px;
+	}
+	a:hover#zubehoer {
+		background-position: -275px -47px;
+	}
+
+	#kat_taschenlampen {
+		padding:0;
+		border:0;
+		width: 860px;
+		height: auto;
+		padding-top: 276px;
+		background: url("/WebRoot/Store21/Shops/62874629/MediaGallery/metis/kategorien/taschenlampen/kategorie_taschenlampen.jpg")no-repeat scroll right top transparent;
+	}
+</style>
+
 <div id="content_kat">
-	<div id="kat_Taschenlampen">
-		<div class="unterkat_button_all">
+	<div id="kat_taschenlampen">
+		<div class="unterkat_button_img_all">
+
 			<!-- Taschenlampen -->
-			<a class="unterkat_button_together" href="http://www.wunschgravur.de/taschenlampen/normal" style="width: 48%;">
-				<div class="unterkat_button_text">
-					<div class="unterkat_button_flash"></div>
-					<!-- ANFANG: Hier Ueberschrift einfuegen -->
-					Taschenlampen
-					<!-- ENDE: Hier Ueberschrift einfuegen -->
-					<div class="unterkat_button_untertext">
-					<!-- ANFANG: Hier Untertext einfuegen -->
-
-					<!-- ENDE: Hier Untertext einfuegen -->
-					</div>
-				</div>
-			</a>
+			<a id="normal" class="unterkat_button_img" href="/taschenlampen/normal"></a>
+			
 			<!-- Zubehör -->
-			<a class="unterkat_button_together" href="http://www.wunschgravur.de/taschenlampen/zubehoer" style="width: 48%;">
-				<div class="unterkat_button_text">
-					<div class="unterkat_button_flash"></div>
-					<!-- ANFANG: Hier Ueberschrift einfuegen -->
-					Zubehör
-					<!-- ENDE: Hier Ueberschrift einfuegen -->
-					<div class="unterkat_button_untertext">
-					<!-- ANFANG: Hier Untertext einfuegen -->
+			<a id="zubehoer" class="unterkat_button_img" href="/taschenlampen/zubehoer"></a>
 
-					<!-- ENDE: Hier Untertext einfuegen -->
-					</div>
-				</div>
-			</a>
+			<!-- Leeres Feld -->
+			<span class="unterkat_button_placeholder"></span>
+
 		</div>
 	</div>
 </div>
+
 <p class="inhalt">
 	<!-- ANFANG: Beschreibungstext -->
 	<font size="2">Alle Artikel können mit einem Text, Foto, Grafiken oder Logo graviert werden. <br />
