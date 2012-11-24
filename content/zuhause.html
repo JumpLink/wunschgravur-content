@@ -1,4 +1,17 @@
 <style type="text/css">
+
+  .unterkat_button_img {
+    background-image: url("/WebRoot/Store21/Shops/62874629/MediaGallery/metis/kategorien/schloesser/buttons/buttons-schloesser.png") !important;
+    background-repeat:no-repeat;
+  }
+
+  a#motivgalerie {
+    background-position: 0px 0px;
+  }
+  a:hover#motivgalerie {
+    background-position: -275px 0px;
+  }
+
   #kat_zuhause {
     padding:0;
     border:0;
@@ -7,11 +20,21 @@
     padding-top: 276px;
     background: url("/WebRoot/Store21/Shops/62874629/MediaGallery/metis/kategorien/zuhause/kategorie_zuhause.jpg") no-repeat scroll right top transparent;
   }
+
 </style>
 
 <div id="content_kat">
   <div id="kat_zuhause">
-    <!-- Hier Unterkategorien -->
+    <div class="unterkat_button_img_all">
+      <!-- motivgalerie -->
+      <a id="motivgalerie" class="unterkat_button_img" href="/zuhause/motivgalerie"></a>
+
+      <!-- Leeres Feld -->
+      <span class="unterkat_button_placeholder"></span>
+
+      <!-- Leeres Feld -->
+      <span class="unterkat_button_placeholder"></span>
+    </div>
   </div>
   <p class="inhalt">
     <!-- ANFANG: nur dieser Bereich darf veraendert werden -->
