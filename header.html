@@ -315,7 +315,7 @@ ul.DropDownList li ul li a {
 /* 
  * Suchfeld Gesamt
  */
-.Header .SearchElement.NavBarElement3 {
+.Header .SearchElement {
     position: absolute !important;
     width: 180px !important; /* 160px - 10px fuer textabstand */
     height: 26px !important;
@@ -404,14 +404,14 @@ ul.DropDownList li ul li a {
             background: none !important;
             width: 25px !important;
         }
-
-html.msie .Header .SizeContainer .SearchElement {
+/* TODO? */
+/*html.msie .Header .SizeContainer .SearchElement {
     float: none !important;
-}
+}*/
 
-html.msie .Header .SearchElement .NavBarElement4 {
+/*html.msie .Header .SearchElement .NavBarElement4 {
     left: 20px !important;
-}
+}*/
 
 /**
  * Suchfeld nur Textfeld
@@ -529,7 +529,7 @@ html.webkit input.Search {
  * @browser: firefox, chromium
  * @type: Verlinkung
  */
-.Header div.PropertyContainer div.SizeContainer div.NavBarElement4 {
+.Header div.PropertyContainer div.SizeContainer div.NavElementIcon {
     position: absolute !important;
     right: 0 !important;
     top: 25px !important;
@@ -553,7 +553,7 @@ html.webkit input.Search {
      * @browser: firefox, chromium
      * @type: img
      */
-    .Header div.PropertyContainer div.SizeContainer div.NavBarElement4 img {
+    .Header div.PropertyContainer div.SizeContainer div.NavElementIcon img {
         display: none;
     }
     /*
@@ -563,7 +563,7 @@ html.webkit input.Search {
      * @browser: firefox, chromium
      * @type: span
      */
-    .Header div.PropertyContainer div.SizeContainer div.NavBarElement4 span {
+    .Header div.PropertyContainer div.SizeContainer div.NavElementIcon span {
         height: 26px !important;
     }
 
@@ -607,8 +607,8 @@ html.msie .Header div.PropertyContainer div.SizeContainer div.SearchElement.NavB
  *
  * @browser: firefox, chromium
  */
-.Header div.PropertyContainer div.SizeContainer div.NavigationElement.NavBarElement2,
-.Header div.NavigationElement.NavBarElement2
+.Header div.PropertyContainer div.SizeContainer div.NavigationElement,
+.Header div.NavigationElement
 {
     position: absolute !important;
     right: 0 !important;
