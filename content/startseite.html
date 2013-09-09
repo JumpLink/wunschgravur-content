@@ -71,86 +71,24 @@
 		padding-top: 310px;
 		min-height: 240px !important;
 	}
-	/* liScroll styles */
 
-	.tickercontainer { /* the outer div with the black border */
-	border: 1px solid #000;
-	background: #fff; 
-	width: 855px; 
-	height: 23px; 
-	margin: 0; 
-	padding: 0;
-	overflow: hidden; 
-	position: fixed;
-	top:0;
-	z-index: 1000;
-	}
-	.tickercontainer .mask { /* that serves as a mask. so you get a sort of padding both left and right */
-	position: relative;
-	left: 0px;
-	top: 4px;
-	width: 855px; 
-	overflow: hidden;
-	}
-	ul.newsticker { /* that's your list */
-	position: relative;
-	left: 750px;
-	font: bold 10px Verdana;
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-
-	}
-	ul.newsticker li {
-	float: left; /* important: display inline gives incorrect results when you check for elem's width */
-	margin: 0;
-	padding: 0;
-	background: #fff;
-	}
-	ul.newsticker a {
-	white-space: nowrap;
-	padding: 0;
-	color: #ff0000;
-	font: bold 10px Verdana;
-	margin: 0 50px 0 0;
-	} 
-	ul.newsticker span {
-	margin: 0 10px 0 0;
-	} 
 </style>
 
-<a id="title_01" href="http://www.wunschgravur.de/schloesser"></a>
-<a id="title_02" href="http://www.wunschgravur.de/zippos"></a>
-<a id="title_03" href="http://www.wunschgravur.de/musik"></a>
-<a id="title_04" href="http://www.wunschgravur.de/messer"></a>
-<a id="title_05" href="http://www.wunschgravur.de/taschenlampen"></a>
+<a id="title_01" href="/schloesser"></a>
+<a id="title_02" href="/zippos"></a>
+<a id="title_03" href="/musik"></a>
+<a id="title_04" href="/messer"></a>
+<a id="title_05" href="/taschenlampen"></a>
 <a id="title_06" href="http://www.ctc-combitec.de"></a>
 
 <div id="content_kat">
 
-	<a id="aktionsprodukte" href="http://www.wunschgravur.de/aktionsprodukte">
+	<a id="aktionsprodukte" href="/aktionsprodukte">
 
 	</a>
 	<p class="inhalt">
 	<!-- ANFANG: Beschreibungstext -->
-
+		
 	<!-- ENDE: Beschreibungstext -->
 	</p> 
 </div>
-<!-- <div class="tickercontainer">
-	<div class="mask">
-		<ul id="ticker01" class="newsticker">
-			<li>Bestellungen mit Zahlungseingang bis zum 17.12.2012 werden noch vor Weihnachten 2012 versendet.</li>
-			<li>Lastschriftzahlungen werden nur bis zum 14.12.2012 bearbeitet.</li>
-			<li>Um Ihr Weihnachtgeschenk noch rechtzeitig zu erhalten, wählen Sie am besten Paypal oder Überweisung.</li>
-			<li>Spätere Bestellung werden ab dem 2.1.2013 bearbeitet und versendet!</li>
-		</ul>
-	</div>
-</div> -->
-<script type="text/javascript">
-	//<![CDATA[
-		// jQuery.ready(function() {
-		// 	jQuery("ul#ticker01").liScroll();
-		// });
-	//]]>
-</script>
